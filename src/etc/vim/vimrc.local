@@ -1,0 +1,5 @@
+source $VIMRUNTIME/vimrc_example.vim
+set tw=0
+set ignorecase
+set ts=4 sw=4
+set nobackup

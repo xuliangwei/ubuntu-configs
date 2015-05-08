@@ -1,0 +1,12 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = vim
+[alias]
+	ls = log --graph --stat
+	ll = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%Cblue%ce %Cgreen%cr)%Creset'  --abbrev-commit --date=relative
+	co = checkout
+	st = status
+	br = branch
