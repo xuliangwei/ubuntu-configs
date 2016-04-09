@@ -7,6 +7,7 @@
 [alias]
 	ls = log --graph --stat
 	ll = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%Cblue%an %Cgreen%cd)%Creset'  --abbrev-commit --date=iso
+	ci = commit
 	co = checkout
 	st = status
 	br = branch
